@@ -1,0 +1,20 @@
+{
+	"name": "mentormateproject",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^14.0.23",
+		"nodemon": "^2.0.4",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.6"
+	},
+	"scripts": {
+		"start": "node dist/app.js",
+		"build": "tsc -p .",
+		"dev": "nodemon src/app.ts"
+	},
+	"author": "",
+	"license": "ISC"
+}
