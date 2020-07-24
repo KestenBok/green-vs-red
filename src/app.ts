@@ -15,9 +15,6 @@ import errorHandler from "./utils/errorHandler";
 		const playField = new PlayField(width, height);
 		playField.populate(gridGenZero);
 
-		console.log(coordinates);
-		console.log(genCount);
-
 		//Construct and start the game
 		const game = new Game(playField, coordinates, genCount);
 		const result = game.play();
